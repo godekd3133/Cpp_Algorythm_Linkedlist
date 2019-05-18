@@ -3,10 +3,8 @@
 
 #include "pch.h"
 #include "list.h"
-#include <vector>
 int main()
 {
-	vector<int> b;
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 	list<int> nlist;
 	for (int i = 0; i < 10; i++)
